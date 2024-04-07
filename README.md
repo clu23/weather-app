@@ -1,1 +1,1 @@
-This is a template for project creation with usual configuration files
+This is a  project to display the weather forecast for any location selected by the user

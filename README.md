@@ -1,1 +1,1 @@
-# weather-app
+This is a template for project creation with usual configuration files

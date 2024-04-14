@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Montserrat:wght@300;400;700&display=swap");
+
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  sans-serif;
+  text-align: center;
+}
+
+
+#content {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Nav */
+
+
+nav {
+  display: flex;
+  height: 94px;
+  border-bottom: 2px solid #c59d5f;
+}
+
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  
+li {
+    margin: 0px 20px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+li:hover {
+    border-bottom: 2px solid #c59d5f;
+    padding-bottom: 4px;
+    cursor: pointer;
+  }
+
+
+/*main*/
+.main {
+  background-color: rgba(33, 136, 180, 0.7);
+  height: 100%;
+  max-height: calc(100% - 400px);
+}
+
+h1 {
+  font-size: 64px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+hr {
+  width: 280px;
+  border: 2px solid #c59d5f;
+  margin: 24px auto;
+}
+
+
+.text-center {
+  text-align: center;
+  color: white;
+}
+
+
+button{
+  background-color: #c59d5f;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 16px;
+  border: none;
+  margin: 0 auto;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+button:hover{
+  color: black;
+}
+
+/* Menu */
+
+.main-menu {
+  background: #f2f2f2;
+  height: 100%;
+  max-height: calc(100% - 188px);
+  overflow: scroll;
+}
+
+.menu-item {
+  max-width: 600px;
+  margin-bottom: 40px;
+  margin-left: calc(50vw - 300px);
+  background-color: #f2f2f2;
+}
+
+.menu-title{
+  font-family: "Herr Von Muellerhoff", cursive;
+  font-size: 96px;
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+
+}
+
+.menu-hr {
+  border: 1px solid #c59d5f;
+}
+
+/* About */
+
+.about-title{
+  font-size: 46px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+}
+/* Contact */
+
+.contact-title{
+  font-size: 46px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* footer */
+
+footer {
+  height: 94px;
+  border-top: 2px solid #c59d5f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+footer p {
+  margin: auto;
+  color: white;
+}
+
+
+/* Typography */
+
+.golden {
+  color: #c59d5f;
+}
+
+.gray {
+  color: #262626;
+}
+
+.white{
+  color: white;
+}
+
+.black{
+  color: black;
+}

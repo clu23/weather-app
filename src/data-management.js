@@ -6,10 +6,15 @@ async function getData(location){
     try{
         const response=await fetch(`https://api.weatherapi.com/v1/current.json?key=c7103df777a44f889d2184454240105&q=${location}`);
         const weatherData= await response.json();
-        console.log(weatherData);
+        return(weatherData)
     } catch(error){
         alert(error);
     }   
+}
+
+//This function takes a JSON file as input and output only some weather data 
+function formatData(data){
+
 }
 
 

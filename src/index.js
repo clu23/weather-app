@@ -1,5 +1,6 @@
 import { renderHome } from "./main-home";
 import { getData } from "./data-management";
+import { formatData } from "./data-management";
 
 
 const $content=document.getElementById("content");
@@ -34,7 +35,7 @@ function home() {
 home();
 //const { foo, bar }=getData('paris').then(result => result);
 getData('paris').then((data) => {
-    console.log(data);
+    console.log(formatData(data));
   });
 
 export { createHtmlElement, $content };

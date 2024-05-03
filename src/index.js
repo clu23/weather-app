@@ -35,7 +35,7 @@ function home() {
 home();
 //const { foo, bar }=getData('paris').then(result => result);
 getData('paris').then((data) => {
-    console.log(formatData(data));
+    console.log(data);
   });
 
 export { createHtmlElement, $content };

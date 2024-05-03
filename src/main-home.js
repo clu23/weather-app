@@ -15,7 +15,7 @@ function render(){
         "The App to get Weather forecast easily"
       );
     
-    const $button = createHtmlElement("button", null, null, "Select a location");
+    const $button = createHtmlElement("button", null, null, "Search");
 
     $main.appendChild($title);
     $main.appendChild($hr);

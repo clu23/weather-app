@@ -20,38 +20,6 @@
   justify-content: space-between;
 }
 
-/* Nav */
-
-
-nav {
-  display: flex;
-  height: 94px;
-  border-bottom: 2px solid #c59d5f;
-}
-
-
-ul {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-  }
-
-  
-li {
-    margin: 0px 20px;
-    color: white;
-    text-transform: uppercase;
-  }
-
-li:hover {
-    border-bottom: 2px solid #c59d5f;
-    padding-bottom: 4px;
-    cursor: pointer;
-  }
-
-
 /*main*/
 .main {
   background-color: rgba(33, 136, 180, 0.7);
@@ -79,6 +47,9 @@ hr {
   color: white;
 }
 
+form{
+  color:white;
+}
 
 button{
   background-color: #c59d5f;
@@ -96,72 +67,9 @@ button:hover{
   color: black;
 }
 
-/* Menu */
-
-.main-menu {
-  background: #f2f2f2;
-  height: 100%;
-  max-height: calc(100% - 188px);
-  overflow: scroll;
+.search-result {
+  display: none;
 }
-
-.menu-item {
-  max-width: 600px;
-  margin-bottom: 40px;
-  margin-left: calc(50vw - 300px);
-  background-color: #f2f2f2;
-}
-
-.menu-title{
-  font-family: "Herr Von Muellerhoff", cursive;
-  font-size: 96px;
-  text-align: center;
-  text-transform: capitalize;
-  color: white;
-
-}
-
-.menu-hr {
-  border: 1px solid #c59d5f;
-}
-
-/* About */
-
-.about-title{
-  font-size: 46px;
-  text-align: center;
-  text-transform: uppercase;
-  color: black;
-  font-weight: bold;
-  margin-top: 20px;
-}
-/* Contact */
-
-.contact-title{
-  font-size: 46px;
-  text-align: center;
-  text-transform: uppercase;
-  color: black;
-  font-weight: bold;
-  margin-top: 20px;
-}
-
-/* footer */
-
-footer {
-  height: 94px;
-  border-top: 2px solid #c59d5f;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-footer p {
-  margin: auto;
-  color: white;
-}
-
 
 /* Typography */
 

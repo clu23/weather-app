@@ -19,12 +19,12 @@
   flex-direction: column;
   justify-content: space-between;
 }
+/*header*/
 
-/*main*/
-.main {
-  background-color: rgba(33, 136, 180, 0.7);
+.header{
+  background-color: rgba(8, 17, 45, 0.9);
   height: 100%;
-  max-height: calc(100% - 400px);
+  max-height: calc(100% - 550px);
 }
 
 h1 {
@@ -35,17 +35,26 @@ h1 {
   text-align: center;
   text-transform: uppercase;
 }
+
 hr {
   width: 280px;
   border: 2px solid #c59d5f;
   margin: 24px auto;
 }
 
-
 .text-center {
   text-align: center;
   color: white;
 }
+/*main*/
+.main {
+  background-color: rgba(33, 136, 180, 0.7);
+  height:100%;
+
+}
+
+
+
 
 form{
   color:white;

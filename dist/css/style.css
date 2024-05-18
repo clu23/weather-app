@@ -24,7 +24,7 @@
 .header{
   background-color: rgba(8, 17, 45, 0.9);
   height: 100%;
-  max-height: calc(100% - 550px);
+  max-height: calc(100% - 560px);
 }
 
 h1 {
@@ -39,7 +39,7 @@ h1 {
 hr {
   width: 280px;
   border: 2px solid #c59d5f;
-  margin: 24px auto;
+  margin: 20px auto;
 }
 
 .text-center {
@@ -48,7 +48,7 @@ hr {
 }
 /*main*/
 .main {
-  background-color: rgba(33, 136, 180, 0.7);
+  background-color: rgba(93, 153, 179, 0.65);
   height:100%;
 
 }

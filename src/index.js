@@ -1,6 +1,6 @@
-import { renderHome } from "./main-home";
 import { getData } from "./data-management";
 import { formatData } from "./data-management";
+import { fetchData } from "./data-management";
 
 
 const $content=document.getElementById("content");
@@ -22,20 +22,31 @@ function createHtmlElement(type, id, arrayClasses, content){
     return element;
 }
 
-function home() {
-    $content.innerHTML = "";
-//    renderNav();
-    renderHome();
-//   renderFooter();
-  }
+const searchForm = document.getElementById("searchForm");
+const searchInput = document.getElementById("searchInput");
+const searchBtn = document.getElementById("searchBtn");
+
+searchForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+});
+
+searchBtn.addEventListener("click", async () => {
+    if (searchInput.value === "") return;
+    const weatherData = await fetchData(searchInput.value);
+    view.setSearchResult(weatherData);
+});
 
 
 
 
 
-//const { foo, bar }=getData('paris').then(result => result);
+
+
+fetchData('paris').then((data) => {
+    console.log(data);
+  });
+
 getData('paris').then((data) => {
     console.log(data);
   });
 
-export { createHtmlElement, $content };

@@ -1,6 +1,4 @@
 import { getData } from "./data-management";
-import { formatData } from "./data-management";
-import { fetchData } from "./data-management";
 import display from "./display";
 
 

@@ -1,26 +1,9 @@
 import { getData } from "./data-management";
 import { formatData } from "./data-management";
 import { fetchData } from "./data-management";
+import display from "./display";
 
 
-const $content=document.getElementById("content");
-
-
-function createHtmlElement(type, id, arrayClasses, content){
-    const element=document.createElement(type);
-    if (id) {
-        element.id=id;
-    }
-    if (arrayClasses){
-        arrayClasses.forEach((Myclass) => element.classList.add(Myclass));
-    }
-
-    if (content){
-        element.innerText=content;
-    }
-
-    return element;
-}
 
 const searchForm = document.getElementById("searchForm");
 const searchInput = document.getElementById("searchInput");
@@ -33,7 +16,7 @@ searchForm.addEventListener("submit", (e) => {
 searchBtn.addEventListener("click", async () => {
     if (searchInput.value === "") return;
     const weatherData = await fetchData(searchInput.value);
-    view.setSearchResult(weatherData);
+    display.setSearchResult(weatherData);
 });
 
 

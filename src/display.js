@@ -6,12 +6,14 @@ const display = (() => {
         searchResult.classList.add("active");
     
         const cityName = document.getElementById("cityName");
+        const date = document.getElementById("date");
         const temperature = document.getElementById("temperature");
         const feelsLike = document.getElementById("feelsLike");
         const humidity = document.getElementById("humidity");
         const wind = document.getElementById("wind");
     
         cityName.textContent = `${weatherData.cityName}`;
+        date.textContent = `${weatherData.date}`;
         temperature.textContent = `${weatherData.temperature} °C`;
         feelsLike.textContent = `Feels like: ${weatherData.feelsLike} °C`;
         humidity.textContent = `Humidity: ${weatherData.humidity} %`;

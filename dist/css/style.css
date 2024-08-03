@@ -101,6 +101,17 @@ input{
 
 .search-result {
   display: none;
+  max-width: 300px;
+  padding: 2rem;
+  border-radius: 5px;
+  margin: 4rem auto;
+  background-color: rgba(8, 17, 45, 0.9);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.search-result.active {
+  display: block;
 }
 
 /* Typography */

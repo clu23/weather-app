@@ -25,11 +25,4 @@ searchBtn.addEventListener("click", async () => {
 
 
 
-fetchData('paris').then((data) => {
-    console.log(data);
-  });
-
-getData('paris').then((data) => {
-    console.log(data);
-  });
 

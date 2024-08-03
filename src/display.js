@@ -13,7 +13,7 @@ const display = (() => {
     
         cityName.textContent = `${weatherData.cityName}`;
         temperature.textContent = `${weatherData.temperature} °C`;
-        feelsLike.textContent = `Fells like: ${weatherData.feelsLike} °C`;
+        feelsLike.textContent = `Feels like: ${weatherData.feelsLike} °C`;
         humidity.textContent = `Humidity: ${weatherData.humidity} %`;
         wind.textContent = `Wind: ${weatherData.windSpeed} km/h`;
       }

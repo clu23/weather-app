@@ -24,7 +24,7 @@
 .header{
   background-color: rgba(8, 17, 45, 0.9);
   height: 100%;
-  max-height: calc(100% - 600px);
+  max-height: calc(100% - 570px);
 }
 
 h1 {
